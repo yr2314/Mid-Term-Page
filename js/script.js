@@ -24,9 +24,9 @@ function hehe() {
     document.getElementById("Why2").style.visibility = "visible";
 }
 function webpage() {
-  if(document.getElementById("#search").value=='trump'){
+  if(document.getElementById("search").value=='trump'){
     window.open("https://www.donaldjtrump.com/");
-  }else if(document.getElementById("#search").value=='hillary'){
+  }else if(document.getElementById("search").value=='hillary'){
     window.open("https://www.hillaryclinton.com/");
   }else{
     var x=document.querySelector("#search").value;
