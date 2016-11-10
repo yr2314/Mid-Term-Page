@@ -15,7 +15,7 @@
     <a class="navbar-brand navbar-brandcolor">U.S.GO!</a>
     <ul class="nav navbar-nav">
         <li class="nav-item active">
-            <a class="nav-link nav-linkcolor" href="#" onclick="scroll(0,0)">Vote for WHO? <span class="sr-only"></span></a>
+            <a class="nav-link nav-linkcolor" href="#" onclick="scroll(0,0)">Vote for WHOM? <span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
             <a class="nav-link nav-linkcolor" href="#culturalbg">Know more about...</a>
@@ -190,21 +190,21 @@
                             <img src="image/trump1.gif">
                             <div class="carousel-caption">
                                 <h3>Cold Laugh</h3>
-                                <p>Beatiful flowers in Kolymbari, Crete.</p>
+                                <p>As is noticed, his laugh is...</p>
                             </div>
                         </div>
                         <div class="item">
                             <img src="image/trump2.gif">
                             <div class="carousel-caption">
                                 <h3>Pugnacious Pouts</h3>
-                                <p>Beatiful flowers in Kolymbari, Crete.</p>
+                                <p>This means he...,however...</p>
                             </div>
                         </div>
                         <div class="item">
                             <img src="image/trump3.gif">
                             <div class="carousel-caption">
                                 <h3>Uncertainty Shrugs</h3>
-                                <p>Beatiful flowers in Kolymbari, Crete.</p>
+                                <p>He shrugs because ..., and also....</p>
                             </div>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
             </div>
         </div>
     </div>
-    <div class="container" >
+    <div class="container">
         <div class="border">
             <div class="border_inside">
                 <div class="row">
@@ -236,20 +236,21 @@
                     <div class="col-sm-6 col-xs-6 col-md-6">
                         <div>
                             <p class="h4" style="margin:5px;">What is the meaning of Donald Trump's facial expression?
-                                <span id="AnswerBox" class="answerbox"></span>
                             </p>
 
                         </div>
                         <div>
                             <button onclick="whocare()" class="btn btnanswer" style="margin:5px;">Who Cares!</button>
                             <button onclick="death()" class="btn btnanswer" style="margin:5px;">The death share!</button>
-
+                            <div style="margin:5px;">
+                                <span id="AnswerBox" class="answerbox"></span>
+                            </div>
                             <div id="Why" style="visibility: hidden; margin:5px; " class="border">
                                 <p>Mr. Trump managed to control his anger (red face, slashing hand gestures, and overloud voice), but failed to show offense as he defensively shrugged his shoulders, grimaced, and repeatedly shook his head in the second half
                                     of his meeting with Sec. Hillary Clinton. </p>
                             </div>
                         </div>
-                        <button class="btn btncolor" style="float:right" type="submit" value="next" onclick="nexttest()">Wanna test more?</button>
+                        <button id="next" class="btn btncolor" style="float:right; visibility:hidden" type="submit" value="next" onclick="nexttest()">Wanna test more?</button>
                     </div>
                 </div>
             </div>
@@ -262,17 +263,19 @@
                     <div class="col-sm-6 col-xs-6 col-md-6">
                         <div>
                             <p class="h4" style="margin:5px;">What is the meaning of Hillary Clinton's facial expression?
-                                <span id="AnswerBox2" class="answerbox"></span>
                             </p>
                         </div>
                         <div>
                             <button onclick="coldlaugh()" class="btn btnanswer" style="margin:5px;">I am so cute!</button>
                             <button onclick="hehe()" class="btn btnanswer" style="margin:5px;">You know nothing...</button>
+                            <div style="margin:5px">
+                                <span id="AnswerBox2" class="answerbox"></span>
+                            </div>
                             <div id="Why2" style="visibility: hidden; margin:5px; " class="border">
                                 <p>Let's break it down: First, Clinton inhales deeply and exhales. Then she smiles and scans the audience before closing her eyes and shaking her shoulders as many as 10 times. As many have suggested, Clinton seemed to draw
                                     obvious inspiration from Shaquille O'Neal</p>
                             </div>
-                            <button class="btn btncolor" style="margin:5px; float:left" type="submit" onclick="moretest()">More?</button>
+                            <button class="btn btncolor" style="margin:5px; float:left; visibility:hidden" id="moretest" type="submit" onclick="moretest()">More?</button>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-6 col-md-6">
